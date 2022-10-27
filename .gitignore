@@ -1,5 +1,6 @@
 build
 videos
+.vscode
 *.mp*
 *.mkv
 *.m4a

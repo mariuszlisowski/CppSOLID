@@ -10,6 +10,7 @@ set(SOURCES
     ValidatedReportParser_tests
 )
 
+cmake_policy(SET CMP0115 OLD)
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_link_libraries(${PROJECT_NAME} PRIVATE
